@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+div img{
+    width: 220px;
+    height: 200px;
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+}
+
+.buahbuah{
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    gap: 6px 10px;
+    justify-content: center;
+}
+
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+

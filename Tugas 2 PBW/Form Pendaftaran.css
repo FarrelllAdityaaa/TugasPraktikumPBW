@@ -1,0 +1,83 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+form{
+    width: 900px;
+    margin: auto;
+}
+
+table{
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+input[type="text"], select{
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea, select{
+    width: 730px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px; 
+}
+
+input[type="radio"]{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+
+label input[type="radio"]{
+    height: 20px;
+    width: 20px;
+}
+
+.man{
+    padding-top: 10px;   
+}
+
+.women{
+    padding-bottom: 20px;
+}
+
+textarea{
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 15px;
+    padding-top: 5px;
+    resize: vertical;
+}
+
+select{
+    height: 40px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+option{
+    font-size: large;
+}
+
+button{
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    height: 40px;
+    width: 85px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blue;
+}
